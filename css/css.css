@@ -1,9 +1,18 @@
-.main {
-    margin-top: 100px;
-    text-align: center;
+/*
+Challenge:
+Wrap the buttons in a flexbox div and center them.
+Give the div a "btn-wrapper" class.
+*/
+
+.btn-wrapper {
+    display: flex;
+    justify-content: center;
+
+
 }
-
-
+.main {
+    margin-top: 100px;    
+}
 
 .logo-img {
     display: block;
@@ -13,13 +22,11 @@
     margin-right: auto;
 }
 
-
 .search-input {
     display: block;
     width: 400px;
     margin-left: auto;
     margin-right: auto;
-
     line-height: 24px;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -30,6 +37,8 @@
 }
 
 .btn {
+    margin-left: 4px;
+    margin-right: 4px;
     margin-top: 30px;
     background: #dfe1e5;
     border: none;
@@ -40,19 +49,3 @@
     border-radius: 4px;
     font-size: 14px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
